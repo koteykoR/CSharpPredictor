@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CSharpPredictor": {
+      "commandName": "Project",
+      "commandLineArgs": "{\"company\": \"vaz\",\"model\": \"2107\",\"mileage\": 120000,\"enginePower\": 73,\"engineVolume\": 1.6,\"year\": 2010,\"transmission\": false,\"link\": \"https://auto.ru/cars/used/sale/vaz/2107/1102859563-9739e148/\",\"price\": 90000}"
+    }
+  }
+}
