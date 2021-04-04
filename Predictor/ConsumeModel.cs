@@ -27,7 +27,7 @@ namespace CSharpPredictorML.Model
             MLContext mlContext = new MLContext();
 
             // Load model & create prediction engine
-            string modelPath = @"C:\Users\nechu\AppData\Local\Temp\MLVSTools\CSharpPredictorML\CSharpPredictorML.Model\MLModel.zip";
+            string modelPath = @"../../../../MLDATA/MLModel.zip";
             ITransformer mlModel = mlContext.Model.Load(modelPath, out var modelInputSchema);
             var predEngine = mlContext.Model.CreatePredictionEngine<ModelInput, ModelOutput>(mlModel);
 

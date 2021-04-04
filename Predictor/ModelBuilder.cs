@@ -12,8 +12,8 @@ namespace CSharpPredictorML.ConsoleApp
 {
     public static class ModelBuilder
     {
-        private static string TRAIN_DATA_FILEPATH = @"C:\Users\nechu\source\repos\CSharpPredictor\MLDATA\auto_ru_data.csv";
-        private static string MODEL_FILEPATH = @"C:\Users\nechu\AppData\Local\Temp\MLVSTools\CSharpPredictorML\CSharpPredictorML.Model\MLModel.zip";
+        private static string TRAIN_DATA_FILEPATH = @"../../../MLDATA/auto_ru_data.csv";
+        private static string MODEL_FILEPATH = @"../../../MLDATA/MLModel.zip";
         // Create MLContext to be shared across the model creation workflow objects 
         // Set a random seed for repeatable/deterministic results across multiple trainings.
         private static MLContext mlContext = new MLContext(seed: 1);

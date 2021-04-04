@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject1", "TestProject1\TestProject1.csproj", "{F8CCA786-7176-428B-A5A0-A871CDA3F31C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPricePredictor", "CSharpPredictorML.Model\CarPricePredictor.csproj", "{47CBF99E-41CE-42DE-B9E0-8A14E170DB77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPricePredictor", "Predictor\CarPricePredictor.csproj", "{C717E4AE-4DF1-4022-AC43-E566BD6A3E88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{F8CCA786-7176-428B-A5A0-A871CDA3F31C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8CCA786-7176-428B-A5A0-A871CDA3F31C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8CCA786-7176-428B-A5A0-A871CDA3F31C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{47CBF99E-41CE-42DE-B9E0-8A14E170DB77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{47CBF99E-41CE-42DE-B9E0-8A14E170DB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{47CBF99E-41CE-42DE-B9E0-8A14E170DB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{47CBF99E-41CE-42DE-B9E0-8A14E170DB77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C717E4AE-4DF1-4022-AC43-E566BD6A3E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C717E4AE-4DF1-4022-AC43-E566BD6A3E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C717E4AE-4DF1-4022-AC43-E566BD6A3E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C717E4AE-4DF1-4022-AC43-E566BD6A3E88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

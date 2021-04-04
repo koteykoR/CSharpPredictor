@@ -14,13 +14,13 @@ namespace TestProject1
         {
             ModelInput MI = new ModelInput();
             MI.Company = "vaz";
-            MI.Model = "2170";
-            MI.EnginePower = 98;
+            MI.Model = "kalina";
+            MI.EnginePower = 81;
             MI.EngineVolume = 1.6F;
             MI.Link = "https://auto.ru/cars/used/sale/vaz/2107/1102859563-9739e148/";
-            MI.Mileage = 37500;
+            MI.Mileage = 130000;
             MI.Transmission = false;
-            MI.Year = 2018;
+            MI.Year = 2008;
             string json = JsonConvert.SerializeObject(MI);
             var str = json.ToString();
             var sum = Predictor.PredictOnePrice(str);

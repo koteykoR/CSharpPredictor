@@ -4,14 +4,14 @@
     "C:\\Users\\nechu\\source\\repos\\CSharpPredictor\\TestProject1\\TestProject1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nechu\\source\\repos\\CSharpPredictor\\CSharpPredictorML.Model\\CarPricePredictor.csproj": {
+    "C:\\Users\\nechu\\source\\repos\\CSharpPredictor\\Predictor\\CarPricePredictor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nechu\\source\\repos\\CSharpPredictor\\CSharpPredictorML.Model\\CarPricePredictor.csproj",
+        "projectUniqueName": "C:\\Users\\nechu\\source\\repos\\CSharpPredictor\\Predictor\\CarPricePredictor.csproj",
         "projectName": "CarPricePredictor",
-        "projectPath": "C:\\Users\\nechu\\source\\repos\\CSharpPredictor\\CSharpPredictorML.Model\\CarPricePredictor.csproj",
+        "projectPath": "C:\\Users\\nechu\\source\\repos\\CSharpPredictor\\Predictor\\CarPricePredictor.csproj",
         "packagesPath": "C:\\Users\\nechu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nechu\\source\\repos\\CSharpPredictor\\CSharpPredictorML.Model\\obj\\",
+        "outputPath": "C:\\Users\\nechu\\source\\repos\\CSharpPredictor\\Predictor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -106,8 +106,8 @@
           "net5.0": {
             "targetAlias": "net5",
             "projectReferences": {
-              "C:\\Users\\nechu\\source\\repos\\CSharpPredictor\\CSharpPredictorML.Model\\CarPricePredictor.csproj": {
-                "projectPath": "C:\\Users\\nechu\\source\\repos\\CSharpPredictor\\CSharpPredictorML.Model\\CarPricePredictor.csproj"
+              "C:\\Users\\nechu\\source\\repos\\CSharpPredictor\\Predictor\\CarPricePredictor.csproj": {
+                "projectPath": "C:\\Users\\nechu\\source\\repos\\CSharpPredictor\\Predictor\\CarPricePredictor.csproj"
               }
             }
           }

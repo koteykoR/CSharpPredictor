@@ -5748,8 +5748,8 @@
     },
     "CarPricePredictor/1.0.0": {
       "type": "project",
-      "path": "../CSharpPredictorML.Model/CarPricePredictor.csproj",
-      "msbuildProject": "../CSharpPredictorML.Model/CarPricePredictor.csproj"
+      "path": "../Predictor/CarPricePredictor.csproj",
+      "msbuildProject": "../Predictor/CarPricePredictor.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5792,8 +5792,8 @@
         "net5.0": {
           "targetAlias": "net5",
           "projectReferences": {
-            "C:\\Users\\nechu\\source\\repos\\CSharpPredictor\\CSharpPredictorML.Model\\CarPricePredictor.csproj": {
-              "projectPath": "C:\\Users\\nechu\\source\\repos\\CSharpPredictor\\CSharpPredictorML.Model\\CarPricePredictor.csproj"
+            "C:\\Users\\nechu\\source\\repos\\CSharpPredictor\\Predictor\\CarPricePredictor.csproj": {
+              "projectPath": "C:\\Users\\nechu\\source\\repos\\CSharpPredictor\\Predictor\\CarPricePredictor.csproj"
             }
           }
         }

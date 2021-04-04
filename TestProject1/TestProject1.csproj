@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CSharpPredictorML.Model\CarPricePredictor.csproj" />
+    <ProjectReference Include="..\Predictor\CarPricePredictor.csproj" />
   </ItemGroup>
 
 </Project>
