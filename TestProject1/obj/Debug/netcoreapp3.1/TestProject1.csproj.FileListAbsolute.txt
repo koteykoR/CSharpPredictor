@@ -115,3 +115,4 @@ C:\Users\nechu\source\repos\CSharpPredictor\TestProject1\obj\Debug\netcoreapp3.1
 C:\Users\nechu\source\repos\CSharpPredictor\TestProject1\obj\Debug\netcoreapp3.1\TestProject1.dll
 C:\Users\nechu\source\repos\CSharpPredictor\TestProject1\obj\Debug\netcoreapp3.1\TestProject1.pdb
 C:\Users\nechu\source\repos\CSharpPredictor\TestProject1\obj\Debug\netcoreapp3.1\TestProject1.genruntimeconfig.cache
+C:\Users\nechu\source\repos\CSharpPredictor\TestProject1\bin\Debug\netcoreapp3.1\CSharpPredictorML.Model.dll

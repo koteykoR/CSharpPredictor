@@ -6,39 +6,39 @@ namespace CSharpPredictorML.Model
 {
     public class ModelInput
     {
-        [ColumnName("company"), LoadColumn(0)]
+        [ColumnName("Company"), LoadColumn(0)]
         public string Company { get; set; }
 
 
-        [ColumnName("model"), LoadColumn(1)]
-        public float Model { get; set; }
+        [ColumnName("Model"), LoadColumn(1)]
+        public string Model { get; set; }
 
 
-        [ColumnName("mileage"), LoadColumn(2)]
+        [ColumnName("Mileage"), LoadColumn(2)]
         public float Mileage { get; set; }
 
 
-        [ColumnName("enginePower"), LoadColumn(3)]
+        [ColumnName("EnginePower"), LoadColumn(3)]
         public float EnginePower { get; set; }
 
 
-        [ColumnName("engineVolume"), LoadColumn(4)]
+        [ColumnName("EngineVolume"), LoadColumn(4)]
         public float EngineVolume { get; set; }
 
 
-        [ColumnName("year"), LoadColumn(5)]
+        [ColumnName("Year"), LoadColumn(5)]
         public float Year { get; set; }
 
 
-        [ColumnName("transmission"), LoadColumn(6)]
+        [ColumnName("Transmission"), LoadColumn(6)]
         public bool Transmission { get; set; }
 
 
-        [ColumnName("link"), LoadColumn(7)]
+        [ColumnName("Link"), LoadColumn(7)]
         public string Link { get; set; }
 
 
-        [ColumnName("price"), LoadColumn(8)]
+        [ColumnName("Price"), LoadColumn(8)]
         public float Price { get; set; }
 
 

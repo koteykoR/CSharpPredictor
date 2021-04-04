@@ -1,4 +1,3 @@
-using CSharpPredictor;
 using CSharpPredictorML.Model;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json;
@@ -15,13 +14,13 @@ namespace TestProject1
         {
             ModelInput MI = new ModelInput();
             MI.Company = "vaz";
-            MI.Model = 2107;
-            MI.EnginePower = 73;
+            MI.Model = "2170";
+            MI.EnginePower = 98;
             MI.EngineVolume = 1.6F;
             MI.Link = "https://auto.ru/cars/used/sale/vaz/2107/1102859563-9739e148/";
-            MI.Mileage = 120000;
+            MI.Mileage = 37500;
             MI.Transmission = false;
-            MI.Year = 2010;
+            MI.Year = 2018;
             string json = JsonConvert.SerializeObject(MI);
             var str = json.ToString();
             var sum = Predictor.PredictOnePrice(str);
@@ -34,7 +33,7 @@ namespace TestProject1
         {
             ModelInput MI = new ModelInput();
             MI.Company = "vaz";
-            MI.Model = 2107;
+            //MI.Model = "2107";
             MI.EnginePower = 73;
             MI.EngineVolume = 1.6F;
             MI.Link = "https://auto.ru/cars/used/sale/vaz/2107/1102859563-9739e148/";
@@ -45,7 +44,7 @@ namespace TestProject1
 
             ModelInput M1 = new ModelInput();
             M1.Company = "vaz";
-            M1.Model = 2107;
+            //M1.Model = "2107";
             M1.EnginePower = 73;
             M1.EngineVolume = 1.6F;
             M1.Link = "https://auto.ru/cars/used/sale/vaz/2107/1102859563-9739e148/";
@@ -55,8 +54,8 @@ namespace TestProject1
             M1.Price = 100010;
 
             ModelInput M2 = new ModelInput();
-            M2.Company = "vaz";
-            M2.Model = 2107;
+            M2.Company = "audi";
+          //  M2.Model = "2107";
             M2.EnginePower = 73;
             M2.EngineVolume = 1.6F;
             MI.Link = "https://auto.ru/cars/used/sale/vaz/2107/1102859563-9739e148/";
